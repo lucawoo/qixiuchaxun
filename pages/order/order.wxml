@@ -1,0 +1,44 @@
+<!--pages/order/order.wxml-->
+<view>
+  <!--<view>
+    <text>预约服务</text>
+  </view>-->
+  <swiper vertical="{{false}}" indicator-dots="true" autoplay="true" interval="5000">
+    <swiper-item>
+        <image src="/images/order-images/show-1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="/images/order-images/show-2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="/images/order-images/show-3.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <form bindsubmit="formSubmit">
+    <!--<picker mode="date" value="{{date}}" start="1978-01-01" end="2017-1-23" bindchange="bindDateChange">  
+      <view class="picker">  
+        预约时间：{{dates}}  
+      </view>  
+    </picker> 
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{allItems}}">
+        <view class="picker">
+            预约项目: {{allItems[index]}}
+        </view>
+    </picker> -->
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{orderItems}}">
+      <view >
+        <text >预约服务：</text>{{orderItems[index]}}
+      </view>
+    </picker>
+    <picker mode="date" value="{{orderTime}}" start="{{start}}" end="{{end}}" bindchange="bindDateChange">
+      <view >
+        <text>预约时间：</text>{{orderTime}}
+      </view>
+    </picker>
+    <view class='but'>
+    <button form-type="submit">
+      我要预约 
+    </button>
+    </view>
+  </form>  
+</view>

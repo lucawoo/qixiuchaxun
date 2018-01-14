@@ -1,0 +1,42 @@
+/* pages/record/record.wxss */
+page{
+  background-color: rgb(247,247,247);
+}
+.item{
+  margin: 50rpx 80rpx 50rpx 130rpx;
+  
+  border-bottom: 1rpx solid #CCC;
+  position: relative;
+  padding: 10rpx 20rpx;
+  box-shadow: 0 0 20rpx #DDD;
+  border-radius: 4rpx;
+}
+.item icon{
+  position: absolute;
+  left: -71rpx;
+  top:45rpx;
+  z-index: 3;
+}
+.item view{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 34rpx;
+  margin:10rpx 0;
+}
+.item view .money{
+  font-size: 28rpx;
+}
+.item>text{
+  font-size: 26rpx;
+}
+.line{
+  position: absolute;
+  width: 2rpx;
+  height: 200rpx;
+  background-color: rgb(78,169,245);
+  left: -51rpx;
+  top:41rpx;
+  z-index: 2;
+}

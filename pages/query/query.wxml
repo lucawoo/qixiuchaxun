@@ -1,0 +1,75 @@
+<!--pages/query/query.wxml-->
+<view>
+  <view class='information'>
+    <text class='subject'>{{item_name}}</text>
+    <text class='begin-time'>开始时间：{{begin_time}}</text>
+    <text class='end-time'>预计完成：{{end_time}}</text>
+  </view>
+  <view class='mar'> </view>
+  <view class='progres-done'>
+    <view class='line'></view>
+    <icon type="success" size="20" color="rgb(78,169,245)" />
+    <view class='cateA'>
+      <view class='cate'>
+        <text class='cate-item'>损伤确认</text>
+        <text class='cate-stat'>已完成</text>
+      </view>
+      <text class='pro-time'>2017-09-12 09:12</text>
+    </view>
+  </view>
+  <view class='progres-done'>
+    <view class='line'></view>
+    <icon type="success" size="20" color="rgb(78,169,245)" />
+    <view class='cateA'>
+      <view class='cate'>
+        <text class='cate-item'>钣金件拆卸</text>
+        <text class='cate-stat'>已完成</text>
+      </view>
+      <text class='pro-time'>2017-09-12 09:12</text>
+    </view>
+  </view>
+  <view class='progres-done' >
+    <view class='line'></view>
+    <icon type="success" size="20" color="rgb(78,169,245)" />
+    <view class='cateA'>
+      <view class='cate'>
+        <text class='cate-item'>去除旧漆膜</text>
+        <text class='cate-stat'>已完成</text>
+      </view>
+      <text class='pro-time'>2017-09-12 09:12</text>
+    </view>
+  </view>
+  <view class='progres-done' >
+    <view class='line'></view>
+    <icon type="success" size="20" color="rgb(78,169,245)" />
+    <view class='cateA'>
+      <view class='cate'>
+        <text class='cate-item'>钣金件拉平</text>
+        <text class='cate-stat'>已完成</text>
+      </view>
+      <text class='pro-time'>2017-09-12 09:12</text>
+    </view>
+  </view>
+  <view class='progres-undone' >
+    <view class='line'></view>
+    <icon type="success" size="20" color="grey" />
+    <view class='cateA'>
+      <view class='cate'>
+        <text class='cate-item'>收火处理</text>
+        <text class='cate-stat'>正在进行</text>
+      </view>
+      <text class='pro-time'>2017-09-12 09:12</text>
+    </view>
+  </view>
+  <view class='progres-undone' >
+    <view class='line' id="last"></view>
+    <icon type="success" size="20" color="grey" />
+    <view class='cateA'>
+      <view class='cate'>
+        <text class='cate-item'>还氧处理</text>
+        <text class='cate-stat'>未完成</text>
+      </view>
+      <text class='pro-time'>2017-09-12 09:12</text>
+    </view>
+  </view>
+</view>

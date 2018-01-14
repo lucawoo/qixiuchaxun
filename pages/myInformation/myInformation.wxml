@@ -1,0 +1,25 @@
+<!--pages/myInformation/myInformation.wxml-->
+<view class='userinfo'>
+  <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+</view>
+<view class='items'>
+  <text>姓名：</text>
+  
+</view>
+<view  class='items'>
+  <text>手机号：</text>
+  
+</view>
+<view  class='items'>
+  <text>车牌号：</text>
+  
+</view>
+<view  class='items'>
+  <text>住址：</text>
+</view>
+
+<view class='but'>
+  <button form-type="submit">
+    修改信息 
+  </button>
+</view>

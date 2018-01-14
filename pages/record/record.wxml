@@ -1,0 +1,30 @@
+<!--pages/record/record.wxml-->
+<view >
+  <view class='item'>
+    <icon type="waiting" size="20"/>
+    <view class='line' ></view>
+    <view>
+      <text>洗车</text>
+      <text  class='money'>300元</text>
+    </view>
+    <text>2017-10-9</text>
+  </view>
+  <view class='item'>
+    <view class='line' ></view>
+    <icon type="waiting" size="20"/>
+    <view>
+      <text>洗车</text>
+      <text class='money'>300元</text>
+    </view>
+    <text>2017-10-9</text>
+  </view>
+  <view class='item'>
+    
+    <icon type="waiting" size="20"/>
+    <view>
+      <text>洗车</text>
+      <text  class='money'>300元</text>
+    </view>
+    <text>2017-10-9</text>
+  </view>
+</view>

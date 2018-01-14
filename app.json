@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/profile/profile",
+    "pages/record/record",
+    "pages/myOrder/myOrder",
+    "pages/myInformation/myInformation",
+    "pages/order/order",
+    "pages/query/query",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0173DE",
+    "navigationBarTitleText": "汽车维修进度查询",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "position": "bottom",
+    "selectedColor": "#1296DB",
+    "list": [
+      {
+        "pagePath": "pages/query/query",
+        "text": "进度",
+        "iconPath": "images/icons/progres.png",
+        "selectedIconPath": "images/icons/select_progres.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "预约",
+        "iconPath": "images/icons/order.png",
+        "selectedIconPath": "images/icons/select_order.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "images/icons/my.png",
+        "selectedIconPath": "images/icons/select_my.png"
+      }
+    ]
+  }
+}

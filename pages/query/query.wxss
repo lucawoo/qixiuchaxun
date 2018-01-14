@@ -1,0 +1,87 @@
+/* pages/query/query.wxss */
+page{
+  background-color: rgb(247,247,247);
+}
+.information{
+  border-top: 1rpx solid rgb(194, 194, 194);
+  border-bottom: 30rpx solid rgb(240, 240, 240);
+  padding: 30rpx;
+  box-shadow: 0 0 10px #DDD;
+}
+.begin-time, .end-time{
+  font-size: 30rpx;
+  color: rgb(140, 140, 140);
+}
+.information text{
+  
+  display: block;
+  
+}
+.mar{
+  width: 95%;
+  margin: 20rpx auto;
+  height: 2rpx;
+  background-color: #CCCCCC;
+}
+.progres-done,.progres-undone{
+  width: 550rpx;
+  margin: 0 50rpx 0 150rpx;
+  position: relative;
+  height: 150rpx; /*暂时设置为固定*/
+}
+.progres-done{
+  
+}
+.progres-undone{
+  color: rgb(140, 140, 140);
+}
+.line{
+  width:6rpx;
+  height: 130rpx;
+  background-color: #CCCCCC;
+  display: inline-block;
+  position: absolute;
+  top:60rpx;
+  left: -50rpx;
+  z-index: 2;
+}
+.progres-done .line{
+  background-color: rgb(78,169,245);
+}
+
+icon{
+  display: inline-block;
+  position: absolute;
+  top:30rpx;
+  left: -67rpx;
+  z-index: 3;
+}
+.cateA{
+  display: inline-block;
+  position: relative;
+  width:500rpx;
+  padding:15rpx;
+  /*border-bottom: 1rpx solid #CCCCCC;*/
+  box-shadow: 0 0 10rpx #DDD;
+}
+.cate{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 32rpx;
+}
+.cate-stat{
+  font-size: 26rpx;
+  
+}
+.progres-done{
+  color: rgb(1,115,222);
+}
+.pro-time{
+  font-size: 26rpx;
+  
+}
+#last{
+  display: none;
+}

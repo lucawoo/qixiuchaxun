@@ -1,0 +1,29 @@
+/* pages/myOrder/myOrder.wxss */
+page{
+  background-color: rgb(247,247,247);
+  font-size: 34rpx;
+}
+.myorder{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30rpx;
+}
+.myorder text{
+
+}
+.myorder view{
+  height: 2rpx;
+  background-color: #CCC;
+  width: auto;
+}
+.order-item{
+  padding: 20rpx 40rpx;
+  margin: 30rpx 0rpx;
+  border-bottom: 2rpx solid #CCCCCC;
+  box-shadow: 0 0 10px #DDD;
+}
+.order-item text{
+  font-size: 32rpx;
+}
